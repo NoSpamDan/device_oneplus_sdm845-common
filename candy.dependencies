@@ -1,10 +1,10 @@
 [
   {
-    "repository"  : "kernel_oneplus_sdm845",
+    "repository"  : "CandyDevices/kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845"
   },
   {
-    "repository"  : "vendor_oneplus_sdm845-common",
+    "repository"  : "SecretIngredients/vendor_oneplus_sdm845-common",
     "target_path" : "vendor/oneplus/sdm845-common"
   },
   {

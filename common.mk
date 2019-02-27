@@ -20,7 +20,7 @@ $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
+    $(LOCAL_PATH)/overlay-candy
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
@@ -74,8 +74,8 @@ PRODUCT_PACKAGES += \
     DisplayMode
 
 # Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
+#PRODUCT_PACKAGES += \
+#    OnePlusDoze
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
