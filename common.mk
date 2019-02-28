@@ -58,10 +58,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
@@ -70,12 +66,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan \
-    DisplayMode
-
-# Doze
-#PRODUCT_PACKAGES += \
-#    OnePlusDoze
+    libvulkan
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
@@ -122,7 +113,7 @@ PRODUCT_BOOT_JARS += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler \
+#    KeyHandler \
     tri-state-key_daemon
 
 # Update engine
