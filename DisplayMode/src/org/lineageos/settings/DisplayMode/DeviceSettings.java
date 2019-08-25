@@ -37,6 +37,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.util.Log;
 
+import org.lineageos.settings.DisplayMode.Utils;
+
 public class DeviceSettings extends PreferenceFragment {
 
     public static final String KEY_SRGB_SWITCH = "srgb";

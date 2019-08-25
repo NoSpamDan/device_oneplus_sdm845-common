@@ -24,6 +24,8 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+import org.lineageos.settings.DisplayMode.DeviceSettings;
+
 public class Utils {
 
     /**
